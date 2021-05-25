@@ -3,7 +3,7 @@ About r-sqldf
 
 Home: https://github.com/ggrothendieck/sqldf, https://groups.google.com/group/sqldf
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sqldf-feedstock/blob/master/LICENSE.txt)
 
