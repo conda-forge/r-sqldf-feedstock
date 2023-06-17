@@ -1,11 +1,11 @@
-About r-sqldf
-=============
+About r-sqldf-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sqldf-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ggrothendieck/sqldf, https://groups.google.com/group/sqldf
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sqldf-feedstock/blob/main/LICENSE.txt)
 
 Summary: The sqldf() function is typically passed a single argument which  is an SQL select statement where the table names are ordinary R data  frame names.  sqldf() transparently sets up a database, imports the  data frames into that database, performs the SQL select or other statement and returns the result using a heuristic to determine which  class to assign to each column of the returned data frame.  The sqldf()  or read.csv.sql() functions can also be used to read filtered files  into R even if the original files are larger than R itself can handle. 'RSQLite', 'RH2', 'RMySQL' and 'RPostgreSQL' backends are supported.
 
