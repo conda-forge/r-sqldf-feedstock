@@ -1,6 +1,5 @@
 {% set version = '0.4-11' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-sqldf
@@ -13,8 +12,7 @@ source:
   sha256: cee979d4e8c67b4924655365d925a8d67104e62adf71741f645cdc5196de2260
 
 build:
-  merge_build_host: True  # [win]
-  number: 4
+  number: 5
   noarch: generic
   rpaths:
     - lib/R/lib/
